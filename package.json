@@ -1,0 +1,29 @@
+{
+	"name": "npm-mirror-sync",
+	"version": "0.0.0-alpha.1",
+	"description": "A CLI tool to make Taobao's npm mirror sync your package immediately.",
+	"bin": "./bin/cli.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": "cssmagic/npm-mirror-sync",
+	"keywords": [
+		"npm-mirror"
+	],
+	"author": "cssmagic <cssmagic.cn@gmail.com>",
+	"license": "MIT",
+	"engines": {
+		"node": ">=12"
+	},
+	"dependencies": {
+		"open": "^8.4.0"
+	},
+	"files": [
+		"*.js",
+		"lib/",
+		"bin/"
+	],
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org/"
+	}
+}
